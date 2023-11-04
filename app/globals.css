@@ -2,26 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&family=My+Soul&display=swap");
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+:root {
+  --foreground: rgb(30, 30, 30);
+  --background: rgb(239, 239, 239);
+  font-family: "Marcellus SC", serif;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--foreground);
+  background-color: var(--background);
+  font-family: "Marcellus SC", serif;
+}
+
+.background1 {
+  background-image: url("../public/images/fondo3.png");
+  background-position: center;
+  background-size: cover;
+}
+.background2 {
+  background-image: url("../public/images/bustillo-uno.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.cursive1 {
+  font-family: "My Soul", cursive;
+}
+
+.cursive2 {
+  font-family: "Marcellus SC", serif;
 }
