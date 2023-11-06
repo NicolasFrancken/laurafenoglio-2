@@ -6,6 +6,7 @@ import {
   BiLogoInstagramAlt,
   BiLogoLinkedinSquare,
 } from "react-icons/bi";
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
         </div>
         <Link
           href={"#contacto"}
-          className="absolute bottom-0 right-0 m-8 px-8 py-2 bg-background text-foreground text-lg w-fit rounded-md "
+          className="absolute bottom-0 right-0 m-20 mb-8 px-8 py-2 bg-background text-foreground text-lg w-fit rounded-md hover:bg-[#8a2e67] hover:text-background hover:scale-110 transition-all duration-150"
         >
           Quiero saber más
         </Link>
@@ -68,7 +69,7 @@ export default function Home() {
           </p>
           <Link
             href={"#contacto"}
-            className="px-8 py-2 bg-background text-foreground text-lg w-fit rounded-md"
+            className="px-8 py-2 bg-background text-foreground text-lg w-fit rounded-md hover:bg-[#8a2e67] hover:text-background hover:scale-110 transition-all duration-150"
           >
             Contactanos
           </Link>
@@ -169,54 +170,12 @@ export default function Home() {
         </div>
         <Link
           href={"#contacto"}
-          className="px-8 py-2 bg-transparent text-background border-2 border-background text-xl w-fit rounded-md h-fit"
+          className="px-8 py-2 bg-transparent text-background border-2 border-background text-xl w-fit rounded-md h-fit hover:bg-background hover:text-foreground hover:scale-110 transition-all duration-150"
         >
           Consultá aquí
         </Link>
       </section>
-      <section
-        id="proyectos"
-        className="min-h-screen px-28 py-20 flex flex-col gap-10"
-      >
-        <h3 className="text-4xl">PROYECTOS</h3>
-        <div className="flex justify-between items-start">
-          <div className="flex flex-col items-start gap-3">
-            <button className="text-foreground medium text-xl border-l-[3px] border-[#8a2e67] pl-2">
-              Departamentos
-            </button>
-            <button className="text-[#999DA9] text-xl pl-[11px]">Loteos</button>
-            <button className="text-[#999DA9] text-xl pl-[11px]">
-              Oficinas
-            </button>
-          </div>
-          <div className="grid grid-cols-2 grid-rows-2 gap-10">
-            <div className="flex project1 w-[350px] h-[250px] shadow-2xl">
-              <div className="w-full bg-foreground self-end text-background px-5 p-[10px]">
-                <h6 className="text-xl">La Aguada</h6>
-                <p>Departamentos - 2 unidades disponibles</p>
-              </div>
-            </div>
-            <div className="flex project2 w-[350px] h-[250px] shadow-2xl">
-              <div className="w-full bg-foreground self-end text-background px-5 p-[10px]">
-                <h6 className="text-xl">Bustillo Uno</h6>
-                <p>Departamentos - 5 unidades disponibles</p>
-              </div>
-            </div>
-            <div className="flex project3 w-[350px] h-[250px] shadow-2xl">
-              <div className="w-full bg-foreground self-end text-background px-5 p-[10px]">
-                <h6 className="text-xl">Bella Vista</h6>
-                <p>Departamentos - 1 unidades disponibles</p>
-              </div>
-            </div>
-            <div className="flex project4 w-[350px] h-[250px] shadow-2xl">
-              <div className="w-full bg-foreground self-end text-background px-5 p-[10px]">
-                <h6 className="text-xl">Bariloche Center</h6>
-                <p>Departamentos - 2 unidades disponibles</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Projects />
       <section
         id="contacto"
         className="bg-[#F6F8F7] py-10 pt-[107px]  flex justify-center items-center"
@@ -229,22 +188,22 @@ export default function Home() {
           </p>
           <div className="flex gap-3 w-full">
             <input
-              className="w-full px-4 py-2 border-[1px] border-[#E0E3EB] rounded-md"
+              className="w-full px-4 py-2 border-[1px] border-[#E0E3EB] rounded-md outline-[#8a2e67]"
               placeholder="Nombre*"
             />
             <input
-              className="w-full px-4 py-2 border-[1px] border-[#E0E3EB] rounded-md"
+              className="w-full px-4 py-2 border-[1px] border-[#E0E3EB] rounded-md outline-[#8a2e67]"
               placeholder="Mail*"
             />
           </div>
           <div className="w-full flex flex-col">
             <textarea
-              className="w-full h-[200px] px-4 py-2 border-[1px] border-[#E0E3EB] rounded-md noresize"
+              className="w-full h-[200px] px-4 py-2 border-[1px] border-[#E0E3EB] rounded-md noresize outline-[#8a2e67]"
               placeholder="Escribe tu consulta*"
             />
             <p className="text-red-700">* indica un campo obligatorio</p>
           </div>
-          <button className="bg-foreground text-background text-lg px-20 py-2 rounded-md">
+          <button className="bg-foreground text-background text-lg px-20 py-2 rounded-md hover:bg-[#8a2e67] hover:scale-110 transition-all duration-150">
             Enviar
           </button>
         </div>

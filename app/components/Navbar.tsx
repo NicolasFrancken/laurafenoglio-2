@@ -11,11 +11,36 @@ export default function Navbar() {
         height={50}
       />
       <nav className="flex gap-10 text-lg">
-        <Link href={"#home"}>Home</Link>
-        <Link href={"#nosotros"}>Nosotros</Link>
-        <Link href={"#servicios"}>Servicios</Link>
-        <Link href={"#proyectos"}>Proyectos</Link>
-        <Link href={"#contacto"}>Contacto</Link>
+        <Link
+          href={"#home"}
+          className="hover:text-[#8a2e67] hover:transition-colors duration-150"
+        >
+          Home
+        </Link>
+        <Link
+          href={"#nosotros"}
+          className="hover:text-[#8a2e67] hover:transition-colors duration-150"
+        >
+          Nosotros
+        </Link>
+        <Link
+          href={"#servicios"}
+          className="hover:text-[#8a2e67] hover:transition-colors duration-150"
+        >
+          Servicios
+        </Link>
+        <Link
+          href={"#proyectos"}
+          className="hover:text-[#8a2e67] hover:transition-colors duration-150"
+        >
+          Proyectos
+        </Link>
+        <Link
+          href={"#contacto"}
+          className="hover:text-[#8a2e67] hover:transition-colors duration-150"
+        >
+          Contacto
+        </Link>
       </nav>
     </header>
   );
