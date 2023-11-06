@@ -4,9 +4,13 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&family=My+Soul&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --foreground: rgb(30, 30, 30);
-  --background: rgb(239, 239, 239);
+  --background: #fbfbfb;
   font-family: "Marcellus SC", serif;
 }
 
@@ -26,11 +30,65 @@ body {
   background-position: center;
   background-size: cover;
 }
-
+.background3 {
+  background-image: url("../public/images/cocina.svg");
+  background-position: center;
+  background-size: cover;
+}
 .cursive1 {
   font-family: "My Soul", cursive;
 }
-
 .cursive2 {
   font-family: "Marcellus SC", serif;
+}
+
+.project1 {
+  background-image: url("../public/images/la-aguada.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.project2 {
+  background-image: url("../public/images/bustillo-uno.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.project3 {
+  background-image: url("../public/images/bella-vista.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.project4 {
+  background-image: url("../public/images/bariloche-center.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.project1 {
+  background-image: url("../public/images/la-aguada.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.project1 {
+  background-image: url("../public/images/la-aguada.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.project1 {
+  background-image: url("../public/images/la-aguada.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.project1 {
+  background-image: url("../public/images/la-aguada.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.noresize {
+  resize: none;
 }
