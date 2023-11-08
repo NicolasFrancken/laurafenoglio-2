@@ -211,16 +211,39 @@ export default function Home() {
       <footer className=" pt-5">
         <div className="px-20 pb-5 flex justify-between items-center">
           <div className="flex flex-col gap-2">
-            <p className="text-lg">Dirección: Palacios 156 - 3° piso</p>
+            <p className="text-lg">Dirección: Palacios 156 - 3° A</p>
             <p className="text-lg">Teléfono: +54 (294) 4421993</p>
-            <p className="text-lg">Email: laurafenoglio@gmail.com</p>
+            <p className="text-lg">Email: secretaria@laurafenoglio.com</p>
           </div>
           <div className="flex flex-col justify-center items-start gap-2">
             <p className="text-lg">Redes Sociales</p>
             <div className="flex w-full justify-start">
-              <BiLogoInstagramAlt className="w-7 h-7 mr-3" />
-              <BiLogoFacebookCircle className="w-7 h-7 mr-3" />
-              <BiLogoLinkedinSquare className="w-7 h-7" />
+              <a
+                className="hover:opacity-80 transition-opacity duration-150"
+                target="_blank"
+                rel="noopener noreferrer"
+                href={
+                  "https://www.instagram.com/laura_fenoglio_emprendimientos"
+                }
+              >
+                <BiLogoInstagramAlt className="w-7 h-7 mr-3" />
+              </a>
+              <a
+                className="hover:opacity-80 transition-opacity duration-150"
+                target="_blank"
+                rel="noopener noreferrer"
+                href={"https://www.facebook.com/laurafenoglioemprendimientos/"}
+              >
+                <BiLogoFacebookCircle className="w-7 h-7 mr-3" />
+              </a>
+              <a
+                className="hover:opacity-80 transition-opacity duration-150"
+                target="_blank"
+                rel="noopener noreferrer"
+                href={"https://www.linkedin.com/in/laura-fenoglio-7974a264/"}
+              >
+                <BiLogoLinkedinSquare className="w-7 h-7" />
+              </a>
             </div>
           </div>
         </div>
