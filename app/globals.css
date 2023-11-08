@@ -78,13 +78,19 @@ body {
 }
 
 .project7 {
-  background-image: url("../public/images/san-martin-design.jpeg");
+  background-image: url("../public/images/entre-cerros.jpeg");
   background-position: center;
   background-size: cover;
 }
 
 .project8 {
-  background-image: url("../public/images/la-aguada.jpeg");
+  background-image: url("../public/images/san-martin-design.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.project9 {
+  background-image: url("../public/images/paseo-catedral.png");
   background-position: center;
   background-size: cover;
 }
