@@ -122,3 +122,19 @@ body {
 .noresize {
   resize: none;
 }
+
+.projects {
+  justify-content: space-between;
+  align-items: start;
+}
+
+@media only screen and (max-width: 860px) {
+  .projects {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-buttons {
+    flex-direction: row;
+  }
+}
