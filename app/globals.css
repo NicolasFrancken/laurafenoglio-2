@@ -42,55 +42,79 @@ body {
   font-family: "Marcellus SC", serif;
 }
 
-.project1 {
+.la-aguada {
   background-image: url("../public/images/la-aguada.jpeg");
   background-position: center;
   background-size: cover;
 }
-.project2 {
+.bustillo-uno {
   background-image: url("../public/images/bustillo-uno.jpeg");
   background-position: center;
   background-size: cover;
 }
 
-.project3 {
-  background-image: url("../public/images/bella-vista.jpeg");
+.carantania {
+  background-image: url("../public/images/carantania.jpeg");
   background-position: center;
   background-size: cover;
 }
 
-.project4 {
+.bariloche-center {
   background-image: url("../public/images/bariloche-center.jpeg");
   background-position: center;
   background-size: cover;
 }
 
-.project5 {
+.lomas-del-cauquen {
   background-image: url("../public/images/lomas-del-cauquen.jpeg");
   background-position: center;
   background-size: cover;
 }
 
-.project6 {
+.las-pitras {
   background-image: url("../public/images/las-pitras.jpeg");
   background-position: center;
   background-size: cover;
 }
 
-.project7 {
+.entre-cerros {
   background-image: url("../public/images/entre-cerros.jpeg");
   background-position: center;
   background-size: cover;
 }
 
-.project8 {
+.san-martin-design {
   background-image: url("../public/images/san-martin-design.jpeg");
   background-position: center;
   background-size: cover;
 }
 
-.project9 {
+.paseo-catedral {
   background-image: url("../public/images/paseo-catedral.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.altos-de-dina {
+  background-image: url("../public/images/altos-de-dina.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.reina-mora {
+  background-image: url("../public/images/reina-mora.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.pasaje-del-este {
+  background-image: url("../public/images/pasaje-del-este.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.rincon-del-este {
+  background-image: url("../public/images/rincon-del-este.jpeg");
   background-position: center;
   background-size: cover;
 }
