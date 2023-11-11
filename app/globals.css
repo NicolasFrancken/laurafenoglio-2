@@ -21,12 +21,12 @@ body {
 }
 
 .background1 {
-  background-image: url("../public/images/fondo3.png");
+  background-image: url("../public/images/fondo3.webp");
   background-position: center;
   background-size: cover;
 }
 .background2 {
-  background-image: url("../public/images/bustillo-uno.jpeg");
+  background-image: url("../public/images/bustillo-uno.webp");
   background-position: center;
   background-size: cover;
 }
@@ -43,78 +43,78 @@ body {
 }
 
 .la-aguada {
-  background-image: url("../public/images/la-aguada.jpeg");
+  background-image: url("../public/images/la-aguada.webp");
   background-position: center;
   background-size: cover;
 }
 .bustillo-uno {
-  background-image: url("../public/images/bustillo-uno.jpeg");
+  background-image: url("../public/images/bustillo-uno.webp");
   background-position: center;
   background-size: cover;
 }
 
 .carantania {
-  background-image: url("../public/images/carantania.jpeg");
+  background-image: url("../public/images/carantania.webp");
   background-position: center;
   background-size: cover;
 }
 
 .bariloche-center {
-  background-image: url("../public/images/bariloche-center.jpeg");
+  background-image: url("../public/images/bariloche-center.webp");
   background-position: center;
   background-size: cover;
 }
 
 .lomas-del-cauquen {
-  background-image: url("../public/images/lomas-del-cauquen.jpeg");
+  background-image: url("../public/images/lomas-del-cauquen.webp");
   background-position: center;
   background-size: cover;
 }
 
 .las-pitras {
-  background-image: url("../public/images/las-pitras.jpeg");
+  background-image: url("../public/images/las-pitras.webp");
   background-position: center;
   background-size: cover;
 }
 
 .entre-cerros {
-  background-image: url("../public/images/entre-cerros.jpeg");
+  background-image: url("../public/images/entre-cerros.webp");
   background-position: center;
   background-size: cover;
 }
 
 .san-martin-design {
-  background-image: url("../public/images/san-martin-design.jpeg");
+  background-image: url("../public/images/san-martin-design.webp");
   background-position: center;
   background-size: cover;
 }
 
 .paseo-catedral {
-  background-image: url("../public/images/paseo-catedral.png");
+  background-image: url("../public/images/paseo-catedral.webp");
   background-position: center;
   background-size: cover;
 }
 
 .altos-de-dina {
-  background-image: url("../public/images/altos-de-dina.png");
+  background-image: url("../public/images/altos-de-dina.webp");
   background-position: center;
   background-size: cover;
 }
 
 .reina-mora {
-  background-image: url("../public/images/reina-mora.png");
+  background-image: url("../public/images/reina-mora.webp");
   background-position: center;
   background-size: cover;
 }
 
 .pasaje-del-este {
-  background-image: url("../public/images/pasaje-del-este.jpeg");
+  background-image: url("../public/images/pasaje-del-este.webp");
   background-position: center;
   background-size: cover;
 }
 
 .rincon-del-este {
-  background-image: url("../public/images/rincon-del-este.jpeg");
+  background-image: url("../public/images/rincon-del-este.webp");
   background-position: center;
   background-size: cover;
 }
