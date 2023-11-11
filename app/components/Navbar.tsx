@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <header className="flex justify-between items-center px-5 lg:px-20 py-3 fixed top-0 left-0 right-0 bg-background z-50">
       <Image
-        src={"/images/logo.png"}
+        src={"/images/logo.webp"}
         alt="Laura Fenoglio Logo"
         width={200}
         height={50}
