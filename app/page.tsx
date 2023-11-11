@@ -27,6 +27,18 @@ export default function Home() {
         >
           Quiero saber más
         </Link>
+        <Link
+          className="fixed w-fit h-fit bg-transparent min-w-fit gap-unit-0 m-2 lg:m-5 p-1 lg:p-1 bottom-0 right-0 z-50 hover:scale-105 transition-all duration-150"
+          href="https://wa.me/+5492944584052?text=Hola,%20tengo%20una%20consulta!"
+        >
+          <Image
+            src={"/images/WhatsApp.webp"}
+            alt="WhatsApp"
+            width={70}
+            height={70}
+            className="flex w-[50px] h-[50px] lg:w-[70px] lg:h-[70px]"
+          />
+        </Link>
       </main>
       <section className="w-full flex flex-col justify-center items-center px-5 py-14 gap-5 md:gap-10 ">
         <h3 className="text-2xl md:text-3xl lg:text-4xl">Acerca de Nosotros</h3>
