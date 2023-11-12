@@ -302,8 +302,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="px-20 py-4 bg-[#230018] flex justify-center items-center">
-          <p className="text-background text-xs md:text-sm">
+        <div className="px-5 md:px-20 py-4 bg-[#230018] flex justify-center items-center">
+          <p className="text-background text-xs md:text-sm text-center">
             ©2023 Laura Fenoglio. Todos los derechos reservados
           </p>
         </div>
