@@ -57,7 +57,7 @@ export default function Projects() {
           <div
             className={`${
               selectedPage === 1 ? "grid" : "hidden"
-            }  grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 gap-5 md:gap-10 `}
+            }  grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 gap-5 md:gap-10 w-full`}
           >
             <Project
               title="Lomas del Cauquen"
@@ -83,7 +83,7 @@ export default function Projects() {
           <div
             className={`${
               selectedPage === 1 ? "hidden" : "grid"
-            }  grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 gap-5 md:gap-10 `}
+            }  grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 gap-5 md:gap-10 w-full`}
           >
             <Project
               title="Rincón del Este"
@@ -107,7 +107,7 @@ export default function Projects() {
 
     case "oficinas":
       renderedView = (
-        <div className="grid grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 gap-5 md:gap-10">
+        <div className="grid grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 gap-5 md:gap-10 w-full">
           <Project
             title="San Martín Design"
             description="Oficinas - No disponibles"
