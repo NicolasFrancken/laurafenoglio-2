@@ -9,7 +9,7 @@ html {
 }
 
 :root {
-  --foreground: rgb(30, 30, 30);
+  --foreground: #1e1e1e;
   --background: #fbfbfb;
   font-family: "Marcellus SC", serif;
 }
@@ -128,6 +128,58 @@ body {
   align-items: start;
 }
 
+/* TEST */
+.hamburger {
+  height: 50px;
+  width: 50px;
+  display: none;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  background-color: #1e1e1e;
+  height: 1px;
+  width: 32px;
+  margin: 3px;
+  border-radius: 10px;
+}
+
+.mobile-nav {
+  width: 100vw;
+  padding-top: 4.5rem;
+  box-sizing: border-box;
+  background-color: #fbfbfb;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 40;
+  top: 0;
+  right: -100vw;
+  transition: transform 0.5s;
+}
+
+.active {
+  transform: translateX(-100vw);
+}
+
+.firstAnimateBar1 {
+  animation: flipBar1 0.5s forwards;
+}
+.firstAnimateBar2 {
+  animation: fadeBar2 0.5s forwards;
+}
+.firstAnimateBar3 {
+  animation: flipBar3 0.5s forwards;
+}
+
 @media only screen and (max-width: 860px) {
   .projects {
     flex-direction: column;
@@ -136,5 +188,53 @@ body {
   }
   .projects-buttons {
     flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    margin: 0 1rem;
+  }
+  .nav-ul {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@keyframes fadeBar2 {
+  0% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+}
+@keyframes flipBar1 {
+  form {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(45deg) translate(1px, 9px);
+  }
+}
+@keyframes flipBar3 {
+  form {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-45deg) translate(1px, -9px);
   }
 }
