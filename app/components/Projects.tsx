@@ -26,7 +26,7 @@ export default function Projects() {
   switch (view) {
     case "departamentos":
       renderedView = (
-        <div className="grid grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 gap-5 md:gap-10 ">
+        <div className="grid grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 gap-5 md:gap-10 w-full">
           <Project
             title="La Aguada"
             description="Departamentos - Disponibles"
@@ -167,7 +167,7 @@ export default function Projects() {
             Oficinas
           </button>
         </div>
-        <div className="flex flex-col justify-center items-center  gap-10">
+        <div className="flex flex-col justify-center items-center  gap-10 w-full xl:w-fit">
           {renderedView}
           <div className="flex justify-between items-center gap-5 md:gap-20 w-full">
             <button
