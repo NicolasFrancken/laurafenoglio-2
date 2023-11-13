@@ -28,6 +28,11 @@ export default function Projects() {
       renderedView = (
         <div className="grid grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 gap-5 md:gap-10 w-full">
           <Project
+            title="Bustillo Uno"
+            description="Departamentos - Disponibles"
+            background="bustillo-uno"
+          />
+          <Project
             title="La Aguada"
             description="Departamentos - Disponibles"
             background="la-aguada"
@@ -36,11 +41,6 @@ export default function Projects() {
             title="San Martín Design"
             description="Departamentos - No disponible"
             background="san-martin-design"
-          />
-          <Project
-            title="Bustillo Uno"
-            description="Departamentos - Disponibles"
-            background="bustillo-uno"
           />
           <Project
             title="Carantania"
@@ -60,6 +60,16 @@ export default function Projects() {
             }  grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 gap-5 md:gap-10 w-full`}
           >
             <Project
+              title="Rincón del Este"
+              description="Barrio abierto - Lotes disponibles"
+              background="rincon-del-este"
+            />
+            <Project
+              title="Pasaje del Este"
+              description="Barrio abierto - Lotes disponibles"
+              background="pasaje-del-este"
+            />
+            <Project
               title="Lomas del Cauquen"
               description="Barrio abierto - Lotes disponibles"
               background="lomas-del-cauquen"
@@ -69,6 +79,12 @@ export default function Projects() {
               description="Barrio abierto - Sin lotes disponibles"
               background="las-pitras"
             />
+          </div>
+          <div
+            className={`${
+              selectedPage === 1 ? "hidden" : "grid"
+            }  grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 gap-5 md:gap-10 w-full`}
+          >
             <Project
               title="Entre Cerros"
               description="Barrio abierto - Lotes disponibles"
@@ -78,22 +94,6 @@ export default function Projects() {
               title="Altos de Dina Huapi"
               description="Barrio abierto - Lotes disponibles"
               background="altos-de-dina"
-            />
-          </div>
-          <div
-            className={`${
-              selectedPage === 1 ? "hidden" : "grid"
-            }  grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 gap-5 md:gap-10 w-full`}
-          >
-            <Project
-              title="Rincón del Este"
-              description="Barrio abierto - Lotes disponibles"
-              background="rincon-del-este"
-            />
-            <Project
-              title="Pasaje del Este"
-              description="Barrio abierto - Lotes disponibles"
-              background="pasaje-del-este"
             />
             <Project
               title="Reina Mora"
