@@ -69,15 +69,21 @@ export default function Projects() {
               description="Barrio abierto - Lotes disponibles"
               background="pasaje-del-este"
             />
+            <a
+              href="https://www.google.com/maps/d/u/5/viewer?mid=1gfIEb1e0Z7C06mf6kxe3kfBqHByF1g8&ll=-40.12643868335402%2C-71.20720672607422&z=17"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Project
+                title="Terrazas del Chapelco"
+                description="Barrio abierto - Lotes disponibles"
+                background="terrazas-del-chapelco"
+              />
+            </a>
             <Project
               title="Lomas del Cauquen"
               description="Barrio abierto - Lotes disponibles"
               background="lomas-del-cauquen"
-            />
-            <Project
-              title="Las Pitras"
-              description="Barrio abierto - Sin lotes disponibles"
-              background="las-pitras"
             />
           </div>
           <div
@@ -85,6 +91,11 @@ export default function Projects() {
               selectedPage === 1 ? "hidden" : "grid"
             }  grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 gap-5 md:gap-10 w-full`}
           >
+            <Project
+              title="Las Pitras"
+              description="Barrio abierto - Sin lotes disponibles"
+              background="las-pitras"
+            />
             <Project
               title="Entre Cerros"
               description="Barrio abierto - Lotes disponibles"

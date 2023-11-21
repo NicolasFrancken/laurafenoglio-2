@@ -119,6 +119,12 @@ body {
   background-size: cover;
 }
 
+.terrazas-del-chapelco {
+  background-image: url("../public/images/terrazas-del-chapelco.webp");
+  background-position: center;
+  background-size: cover;
+}
+
 .noresize {
   resize: none;
 }
