@@ -93,7 +93,7 @@ export default function Projects() {
           >
             <Project
               title="Las Pitras"
-              description="Barrio abierto - Sin lotes disponibles"
+              description="Barrio abierto - Lotes disponibles"
               background="las-pitras"
             />
             <Project
@@ -103,7 +103,7 @@ export default function Projects() {
             />
             <Project
               title="Altos de Dina Huapi"
-              description="Barrio abierto - Lotes disponibles"
+              description="Barrio abierto - Sin lotes disponibles"
               background="altos-de-dina"
             />
             <Project
