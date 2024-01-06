@@ -125,6 +125,12 @@ body {
   background-size: cover;
 }
 
+.san-martin-de-los-andes {
+  background-image: url("../public/images/san-martin-de-los-andes.webp");
+  background-position: center;
+  background-size: cover;
+}
+
 .noresize {
   resize: none;
 }

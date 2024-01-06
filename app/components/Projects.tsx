@@ -60,6 +60,11 @@ export default function Projects() {
             }  grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 gap-5 md:gap-10 w-full`}
           >
             <Project
+              title="San Martín de los Andes"
+              description="Barrio abierto - Lotes disponibles"
+              background="san-martin-de-los-andes"
+            />
+            <Project
               title="Rincón del Este"
               description="Barrio abierto - Lotes disponibles"
               background="rincon-del-este"
@@ -80,17 +85,17 @@ export default function Projects() {
                 background="terrazas-del-chapelco"
               />
             </a>
-            <Project
-              title="Lomas del Cauquen"
-              description="Barrio abierto - Lotes disponibles"
-              background="lomas-del-cauquen"
-            />
           </div>
           <div
             className={`${
               selectedPage === 1 ? "hidden" : "grid"
             }  grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 gap-5 md:gap-10 w-full`}
           >
+            <Project
+              title="Lomas del Cauquen"
+              description="Barrio abierto - Lotes disponibles"
+              background="lomas-del-cauquen"
+            />
             <Project
               title="Las Pitras"
               description="Barrio abierto - Lotes disponibles"
@@ -106,11 +111,11 @@ export default function Projects() {
               description="Barrio abierto - Sin lotes disponibles"
               background="altos-de-dina"
             />
-            <Project
+            {/* <Project
               title="Reina Mora"
               description="Barrio abierto - Lotes disponibles"
               background="reina-mora"
-            />
+            /> */}
           </div>
         </>
       );
