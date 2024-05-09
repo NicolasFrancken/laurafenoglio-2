@@ -143,7 +143,7 @@ export default function Projects() {
   return (
     <section
       id="proyectos"
-      className="min-h-screen px-5 lg:px-20 xl:px-28 py-20 flex flex-col gap-10 "
+      className=" px-5 lg:px-20 xl:px-28 py-20 flex flex-col gap-10 "
     >
       <h3 className="text-2xl md:text-3xl lg:text-4xl">PROYECTOS</h3>
       <div className="flex projects justify-between items-start gap-10">
