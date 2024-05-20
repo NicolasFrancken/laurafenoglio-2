@@ -79,7 +79,7 @@ export default function Home() {
               alt="Bustillo"
               className="flex background2 w-full lg:w-[700px] h-[500px] object-cover"
             />
-            <div className="flex flex-col min-w-[250px] max-w-[250px] sm:min-w-[450px] sm:max-w-[450px] p-5 sm:p-10 bg-foreground text-background gap-5 absolute top-[50%] right-[50%] translate-x-[50%] -translate-y-[50%] lg:-right-44 lg:top-16 shadow-2xl ">
+            <div className="flex flex-col min-w-[250px] max-w-[250px] sm:min-w-[450px] sm:max-w-[450px] p-5 sm:p-10 bg-foreground text-background gap-5 absolute top-[50%] right-[50%] translate-x-[50%] lg:translate-x-0 lg:-translate-y-0 -translate-y-[50%] lg:-right-44 lg:top-[78px] shadow-2xl ">
               <h3 className="text-xl md:text-2xl lg:text-3xl">
                 ¿POR QUÉ NOSOTROS?
               </h3>
