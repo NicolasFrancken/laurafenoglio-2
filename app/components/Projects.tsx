@@ -78,7 +78,7 @@ export default function Projects() {
             />
             <Project
               title="Pasaje del Este"
-              description="Barrio abierto - Lotes disponibles"
+              description="Barrio abierto - Sin lotes disponibles"
               background="pasaje-del-este"
             />
             <Project
