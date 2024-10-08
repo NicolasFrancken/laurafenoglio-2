@@ -40,7 +40,9 @@ export default function Project({ params }: { params: any }) {
               </div>
 
               <Link
-                href={project?.contactUrl!}
+                href={`https://wa.me/+5492944584052?text=¡Me%20gustaría%20recibir%20más%20info%20sobre%20${project?.title
+                  .split(" ")
+                  .join("%20")}!`}
                 className="text-center w-full px-4 py-2 bg-[#8a2e67] text-background text-base md:text-lg rounded-md hover:bg-foreground hover:text-background transition-all duration-150 mt-4"
               >
                 Contáctanos
