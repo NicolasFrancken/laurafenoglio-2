@@ -26,7 +26,7 @@ export default function Project({ params }: { params: any }) {
             </label>
           </div>
 
-          <div className="w-full flex flex-col md:flex-row gap-4 md:gap-12">
+          <div className="w-full flex flex-col md:flex-row gap-8 md:gap-12">
             <div className="w-full md:w-3/5  ">
               <ProjectCarrousel slides={project?.imageUrls!} />
             </div>
@@ -34,7 +34,7 @@ export default function Project({ params }: { params: any }) {
               <h1 className="text-2xl md:text-3xl font-medium md:text-balance">
                 {project?.title}
               </h1>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-1 md:gap-4">
                 <h2 className="text-lg md:text-xl font-medium">Descripción</h2>
                 <p className="text-neutral-600">{project?.longDescription}</p>
               </div>
