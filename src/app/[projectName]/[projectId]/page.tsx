@@ -21,9 +21,7 @@ export default function Project({ params }: { params: any }) {
             <Link href={"/#proyectos"}>
               <FaArrowLeft className="stroke-primary" />
             </Link>
-            <label className="text-xs md:text-sm text-neutral-600">
-              Proyectos / {project?.title}
-            </label>
+            <label className="text-xs md:text-sm ">{project?.title}</label>
           </div>
 
           <div className="w-full flex flex-col md:flex-row gap-8 md:gap-12">

@@ -110,7 +110,7 @@ export default function Projects() {
             Departamentos
           </button>
           <button
-            className={`text-[#999DA9]  text-base md:text-xl pl-0 md:pl-2 ${
+            className={`text-[#999DA9] text-base md:text-xl pl-0 md:pl-2 ${
               view === "loteos"
                 ? "border-b-[3px] md:border-b-0 md:border-l-[3px] border-[#8a2e67] text-foreground"
                 : ""
