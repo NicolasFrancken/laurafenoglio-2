@@ -1,0 +1,255 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&family=My+Soul&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --foreground: #1e1e1e;
+  --background: #fbfbfb;
+  font-family: "Marcellus SC", serif;
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  font-family: "Marcellus SC", serif;
+}
+
+.background1 {
+  background-image: url("../../public/images/main.png");
+  background-position: center;
+  background-size: cover;
+}
+.background2 {
+  background-image: url("../../public/images/bustillo-uno.webp");
+  background-position: center;
+  background-size: cover;
+}
+.background3 {
+  background-image: url("../../public/images/cocina.svg");
+  background-position: center;
+  background-size: cover;
+}
+.cursive1 {
+  font-family: "My Soul", cursive;
+}
+.cursive2 {
+  font-family: "Marcellus SC", serif;
+}
+
+/* .la-aguada {
+  background-image: url("../../public/images/la-aguada.webp");
+  background-position: center;
+  background-size: cover;
+}
+.bustillo-uno {
+  background-image: url("../../public/images/bustillo-uno.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.carantania {
+  background-image: url("../../public/images/carantania.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.bariloche-center {
+  background-image: url("../../public/images/bariloche-center.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.lomas-del-cauquen {
+  background-image: url("../../public/images/lomas-del-cauquen.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.las-pitras {
+  background-image: url("../../public/images/las-pitras.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.entre-cerros {
+  background-image: url("../../public/images/entre-cerros.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.san-martin-design {
+  background-image: url("../../public/images/san-martin-design.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.paseo-catedral {
+  background-image: url("../../public/images/paseo-catedral.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.altos-de-dina {
+  background-image: url("../../public/images/altos-de-dina.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.reina-mora {
+  background-image: url("../../public/images/reina-mora.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.pasaje-del-este {
+  background-image: url("../../public/images/pasaje-del-este.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.rincon-del-este {
+  background-image: url("../../public/images/rincon-del-este.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.terrazas-del-chapelco {
+  background-image: url("../../public/images/terrazas-del-chapelco.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.san-martin-de-los-andes {
+  background-image: url("../../public/images/san-martin-de-los-andes.webp");
+  background-position: center;
+  background-size: cover;
+} */
+
+.noresize {
+  resize: none;
+}
+
+.projects {
+  justify-content: space-between;
+  align-items: start;
+}
+
+/* TEST */
+.hamburger {
+  height: fit-content;
+  width: 32px;
+  display: none;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  background-color: #1e1e1e;
+  height: 1px;
+  width: 32px;
+  margin: 3px;
+  border-radius: 10px;
+}
+
+.mobile-nav {
+  width: 100vw;
+  padding-top: 4.5rem;
+  box-sizing: border-box;
+  background-color: #fbfbfb;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 40;
+  top: 0;
+  right: -100vw;
+  transition: transform 0.5s;
+}
+
+.active {
+  transform: translateX(-100vw);
+}
+
+.firstAnimateBar1 {
+  animation: flipBar1 0.5s forwards;
+}
+.firstAnimateBar2 {
+  animation: fadeBar2 0.5s forwards;
+}
+.firstAnimateBar3 {
+  animation: flipBar3 0.5s forwards;
+}
+
+@media only screen and (max-width: 860px) {
+  .projects {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-buttons {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .background1 {
+    background-position-x: 30%;
+  }
+  .nav {
+    margin: 0;
+  }
+  .nav-ul {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@keyframes fadeBar2 {
+  0% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+}
+@keyframes flipBar1 {
+  form {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(45deg) translate(1px, 9px);
+  }
+}
+@keyframes flipBar3 {
+  form {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-45deg) translate(1px, -9px);
+  }
+}
