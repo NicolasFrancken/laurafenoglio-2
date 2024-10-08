@@ -21,7 +21,7 @@ body {
 }
 
 .background1 {
-  background-image: url("../../public/images/main.png");
+  background-image: url("../../public/images/main.webp");
   background-position: center;
   background-size: cover;
 }
