@@ -14,7 +14,7 @@ export default function Home() {
       <div className="w-full max-w-[2000px]">
         <Navbar />
         <main className="min-h-[80vh] background1 px-5 lg:px-20 flex items-center justify-center md:justify-start relative">
-          <div className="flex flex-col">
+          <div className="flex flex-col text-white ">
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center md:text-start">
               Emprendimientos <br /> Inmobiliarios
             </h1>
@@ -77,7 +77,7 @@ export default function Home() {
             <img
               src="/images/bustillo-uno.webp"
               alt="Bustillo"
-              className="flex background2 w-full lg:w-[700px] h-[500px] object-cover"
+              className="flex w-full lg:w-[700px] h-[500px] object-cover"
             />
             <div className="flex flex-col min-w-[250px] max-w-[250px] sm:min-w-[450px] sm:max-w-[450px] p-5 sm:p-10 bg-foreground text-background gap-5 absolute top-[50%] right-[50%] translate-x-[50%] lg:translate-x-0 lg:-translate-y-0 -translate-y-[50%] lg:-right-44 lg:top-[78px] shadow-2xl ">
               <h3 className="text-xl md:text-2xl lg:text-3xl">

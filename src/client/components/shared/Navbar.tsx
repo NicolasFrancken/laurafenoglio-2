@@ -23,11 +23,11 @@ export default function Navbar() {
         <div className="flex justify-between items-center  w-full max-w-[2000px]  px-5 lg:px-20 py-3">
           <Link href={"/"}>
             <Image
-              src={"/images/logo.webp"}
+              src={"/logos/logotype.png"}
               alt="Laura Fenoglio Logo"
               width={200}
               height={50}
-              className="w-[150px] md:w-[200px] md:h-[50px]"
+              className="h-[30px] w-auto md:w-auto md:h-[40px]"
             />
           </Link>
           <nav className="hidden md:flex gap-10 text-lg">

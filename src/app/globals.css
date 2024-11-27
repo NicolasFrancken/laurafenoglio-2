@@ -211,7 +211,7 @@ body {
 
 @media only screen and (max-width: 768px) {
   .background1 {
-    background-position-x: 30%;
+    background-position-x: 50%;
   }
   .nav {
     margin: 0;
