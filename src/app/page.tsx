@@ -10,10 +10,10 @@ import Projects from "../client/components/main/Projects";
 
 export default function Home() {
   return (
-    <div id="home" className="flex justify-center">
+    <main id="home" className="flex justify-center">
       <div className="w-full max-w-[2000px]">
         <Navbar />
-        <main className="min-h-[80vh] background1 px-5 lg:px-20 flex items-center justify-center md:justify-start relative">
+        <section className="min-h-[80vh] background1 px-5 lg:px-20 flex items-center justify-center md:justify-start relative">
           <div className="flex flex-col text-white ">
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center md:text-start">
               Emprendimientos <br /> Inmobiliarios
@@ -23,7 +23,9 @@ export default function Home() {
             </h3>
           </div>
           <Link
-            href={"#contacto"}
+            href={
+              "https://api.whatsapp.com/send/?phone=%2B5492944584052&text=Me+gustar%C3%ADa+recibir+m%C3%A1s+informaci%C3%B3n&type=phone_number&app_absent=0"
+            }
             className="absolute bottom-0 w-max right-[50%] md:right-0 translate-x-1/2 md:translate-x-0 md:m-20 mb-8 px-8 py-2 bg-background text-foreground text-base md:text-lg rounded-md hover:bg-[#8a2e67] hover:text-background hover:scale-110 transition-all duration-150"
           >
             Quiero saber más
@@ -40,8 +42,8 @@ export default function Home() {
               className="flex w-[50px] h-[50px] lg:w-[70px] lg:h-[70px]"
             />
           </Link>
-        </main>
-        <section className="w-full flex flex-col justify-center items-center px-5 py-14 gap-5 md:gap-10 ">
+        </section>
+        {/* <section className="w-full flex flex-col justify-center items-center px-5 py-14 gap-5 md:gap-10 ">
           <h3 className="text-2xl md:text-3xl lg:text-4xl">
             Acerca de Nosotros
           </h3>
@@ -68,10 +70,10 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
         <section
           id="nosotros"
-          className="w-full px-5 lg:px-40 py-20 pt-24 flex items-center justify-center"
+          className="w-full px-5 lg:px-40 py-10 pt-20 md:py-20 md:pt-40 flex items-center justify-center"
         >
           <div className="relative lg:mr-[176px]">
             <img
@@ -92,7 +94,9 @@ export default function Home() {
                 el medio ambiente.
               </p>
               <Link
-                href={"#contacto"}
+                href={
+                  "https://api.whatsapp.com/send/?phone=%2B5492944584052&text=Me+gustar%C3%ADa+recibir+m%C3%A1s+informaci%C3%B3n&type=phone_number&app_absent=0"
+                }
                 className="px-8 py-2 bg-background text-foreground text-base md:text-lg w-fit rounded-md hover:bg-[#8a2e67] hover:text-background hover:scale-110 transition-all duration-150"
               >
                 Contactanos
@@ -100,7 +104,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section
+        <Projects />
+        {/* <section
           id="servicios"
           className="flex flex-col justify-center items-center bg-[#F6F8F7] py-20 pt-24 px-5 gap-5 md:gap-10"
         >
@@ -189,8 +194,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
-        <section className="background3  p-5 md:p-10 lg:p-28 flex flex-col md:flex-row justify-between items-center gap-5 md:gap-0">
+        </section> */}
+        {/* <section className="background3  p-5 md:p-10 lg:p-28 flex flex-col md:flex-row justify-between items-center gap-5 md:gap-0">
           <div className="flex flex-col gap-1  md:gap-3">
             <h3 className="text-xl md:text-2xl lg:text-3xl text-background text-center md:text-start leading-none">
               Hacé tu consulta gratis <br className="inline sm:hidden" />
@@ -206,84 +211,68 @@ export default function Home() {
           >
             Consultá aquí
           </Link>
-        </section>
-        <Projects />
+        </section> */}
+
         <section
           id="contacto"
-          className="bg-[#F6F8F7] py-10 px-5 pt-[107px] flex justify-center items-center "
+          className="px-5 lg:px-20 xl:px-28 py-10 md:py-20 flex flex-col lg:flex-row justify-between gap-6"
         >
-          <div className="w-[500px] flex flex-col justify-center items-center gap-3 md:gap-5">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl text-center">
-              ¿En qué podemos ayudarte?
-            </h3>
-            <p className="text-base md:text-lg lg:text-xl text-center">
-              Estamos preparados para trabajar en un proyecto de cualquier
-              complejidad, ya sea comercial o residencial.
-            </p>
-            <div className="flex gap-1 md:gap-3 w-full">
-              <input
-                className="w-full px-4 py-2 border-[1px] border-[#E0E3EB] rounded-md outline-[#8a2e67] text-sm md:text-base"
-                placeholder="Nombre *"
-              />
-              <input
-                className="w-full px-4 py-2 border-[1px] border-[#E0E3EB] rounded-md outline-[#8a2e67] text-sm md:text-base"
-                placeholder="Mail *"
-              />
-            </div>
-            <div className="w-full flex flex-col">
-              <textarea
-                className="w-full h-[150px] md:h-[200px] px-4 py-2 border-[1px] border-[#E0E3EB] rounded-md noresize outline-[#8a2e67] text-sm md:text-base"
-                placeholder="Escribe tu consulta *"
-              />
-              <p className="text-red-700 text-xs md:text-sm">
-                * indica un campo obligatorio
+          <div className="flex flex-col justify-center gap-4 lg:gap-8">
+            <div className=" lg:max-w-md flex flex-col gap-0 lg:gap-4">
+              <h3 className="text-2xl lg:text-3xl xl:text-4xl">
+                Asesoramiento a medida para tus necesidades
+              </h3>
+              <p className="text-base lg:text-lg xl:text-xl">
+                Envianos un mensaje por WhatsApp con todas tus dudas. ¡Estamos
+                acá para ayudarte!
               </p>
             </div>
-            <button className="bg-foreground text-background text-base md:text-lg px-8 py-2 rounded-md hover:bg-[#8a2e67] hover:scale-110 transition-all duration-150">
-              Enviar
-            </button>
+            <Link
+              href={
+                "https://api.whatsapp.com/send/?phone=%2B5492944584052&text=Me+gustar%C3%ADa+recibir+m%C3%A1s+informaci%C3%B3n&type=phone_number&app_absent=0"
+              }
+              className="w-fit bg-foreground text-background text-base md:text-lg px-8 py-2 rounded-md hover:bg-[#8a2e67] hover:scale-110 transition-all duration-150"
+            >
+              Contactanos
+            </Link>
           </div>
+          <img
+            src="/images/bustillo-uno.webp"
+            alt="Bustillo"
+            className="flex w-auto md:h-[250px] lg:h-[300px] xl:h-[361px] object-cover"
+          />
         </section>
         <footer className="pt-5">
           <div className="px-5 lg:px-20 pb-5 flex flex-col sm:flex-row justify-between items-center gap-2">
             <div className="flex flex-col gap-0 sm:gap-2 text-center sm:text-start">
-              <p className="text-xs md:text-lg">
-                Dirección:{" "}
-                <a
-                  className="hover:opacity-80 transition-opacity duration-150"
-                  href="https://maps.app.goo.gl/m8wMoKZNjqVhXtsK8"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Palacios 156 - 3° A
-                </a>
-              </p>
-              <p className="text-xs md:text-lg">
-                Teléfono:{" "}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="tel:+542944421993"
-                  className="hover:opacity-80 transition-opacity duration-150"
-                >
-                  +54 (294) 4421993
-                </a>
-              </p>
-              <p className="text-xs md:text-lg">
-                Email:{" "}
-                <a
-                  className="hover:opacity-80 transition-opacity duration-150"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="mailto:secretaria@laurafenoglio.com"
-                >
-                  secretaria@laurafenoglio.com
-                </a>
-              </p>
+              <a
+                className="hover:opacity-80 transition-opacity duration-150 text-xs md:text-sm"
+                href="https://maps.app.goo.gl/m8wMoKZNjqVhXtsK8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Palacios 156 - 3° A
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="tel:+542944421993"
+                className="hover:opacity-80 transition-opacity duration-150 text-xs md:text-sm"
+              >
+                +54 (294) 4421993
+              </a>
+              <a
+                className="hover:opacity-80 transition-opacity duration-150 text-xs md:text-sm"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="mailto:secretaria@laurafenoglio.com"
+              >
+                secretaria@laurafenoglio.com
+              </a>
             </div>
             <div className="flex flex-col justify-center  items-center sm:items-start gap-0 sm:gap-2 ">
-              <p className="text-xs md:text-lg text-center sm:text-start">
-                Redes Sociales
+              <p className="text-xs md:text-sm text-center sm:text-start">
+                Nuestras Redes
               </p>
               <div className="flex w-full justify-start">
                 <a
@@ -319,11 +308,11 @@ export default function Home() {
           </div>
           <div className="px-5 md:px-20 py-4 bg-[#230018] flex justify-center items-center">
             <p className="text-background text-xs md:text-sm text-center">
-              ©2023 Laura Fenoglio. Todos los derechos reservados
+              ©2023 Laura Fenoglio. Todos los derechos reservados.
             </p>
           </div>
         </footer>
       </div>
-    </div>
+    </main>
   );
 }

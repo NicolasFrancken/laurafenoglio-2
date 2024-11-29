@@ -1,6 +1,42 @@
 export const PROJECTS = [
   {
+    id: 17,
+    title: "Gallardo Suites",
+    description: "Unidades en pozo - Disponibles",
+    longDescription:
+      "Gallardo Suites es un edificio de departamentos de alta gama ubicado en la mejor zona de Bariloche. Diseñado y desarrollado para uso residencial, profesional y turístico. Ubicado en el corazón de la ciudad de Bariloche.",
+    background: "la-aguada",
+    type: "departamentos",
+    imageUrls: [
+      "/images/projects/gallardo-suites/0.webp",
+      // "/images/projects/la-aguada/1.jpeg",
+      // "/images/projects/la-aguada/2.jpeg",
+      // "/images/projects/la-aguada/3.jpeg",
+      // "/images/projects/la-aguada/4.jpeg",
+      // "/images/projects/la-aguada/5.jpeg",
+    ],
+    contactUrl: "https://www.google.com",
+  },
+  {
     id: 1,
+    title: "La Aguada",
+    description: "Departamentos - Disponibles",
+    longDescription:
+      "La Aguada es un complejo de departamentos de alta gama ubicado en la mejor zona de Bariloche.",
+    background: "la-aguada",
+    type: "departamentos",
+    imageUrls: [
+      "/images/projects/la-aguada/0.webp",
+      "/images/projects/la-aguada/1.jpeg",
+      "/images/projects/la-aguada/2.jpeg",
+      "/images/projects/la-aguada/3.jpeg",
+      "/images/projects/la-aguada/4.jpeg",
+      "/images/projects/la-aguada/5.jpeg",
+    ],
+    contactUrl: "https://www.google.com",
+  },
+  {
+    id: 2,
     title: "Bustillo Uno",
     description: "Departamentos - Disponibles",
     longDescription: `Ubicado en uno de los escenarios naturales más impactantes de nuestro país, Bustillo Uno es una evidencia de la capacidad de establecer un vínculo entre la arquitectura moderna
@@ -26,24 +62,6 @@ export const PROJECTS = [
     contactUrl: "https://www.google.com",
   },
   {
-    id: 2,
-    title: "La Aguada",
-    description: "Departamentos - Disponibles",
-    longDescription:
-      "La Aguada es un edificio de departamentos de alta gama ubicado en la mejor zona de Bariloche. Cuenta con departamentos de 1, 2 y 3 dormitorios, cocheras, bauleras, SUM, piscina y gimnasio.",
-    background: "la-aguada",
-    type: "departamentos",
-    imageUrls: [
-      "/images/projects/la-aguada/0.webp",
-      "/images/projects/la-aguada/1.jpeg",
-      "/images/projects/la-aguada/2.jpeg",
-      "/images/projects/la-aguada/3.jpeg",
-      "/images/projects/la-aguada/4.jpeg",
-      "/images/projects/la-aguada/5.jpeg",
-    ],
-    contactUrl: "https://www.google.com",
-  },
-  {
     id: 3,
     title: "San Martín Design",
     description: "Departamentos - No disponible",
@@ -65,9 +83,25 @@ export const PROJECTS = [
     imageUrls: ["/images/projects/carantania/0.webp"],
     contactUrl: "https://www.google.com",
   },
-
   {
     id: 5,
+    title: "Terrazas del Este",
+    description: "Barrio abierto - Lotes disponibles",
+    longDescription: `Descubra Terrazas del Este, una oportunidad única de inversión inmobiliaria en San Carlos de Bariloche. Este desarrollo residencial combina ubicación estratégica, infraestructura moderna y potencial de crecimiento excepcional. Con un retorno proyectado del 57% en tres años, Terrazas del Este promete ser una inversión inteligente y rentable.`,
+    background: "terrazas-del-este",
+    type: "loteos",
+    imageUrls: [
+      "/images/projects/terrazas-del-este/0.webp",
+      "/images/projects/terrazas-del-este/1.webp",
+      "/images/projects/terrazas-del-este/2.webp",
+      "/images/projects/terrazas-del-este/3.webp",
+      "/images/projects/terrazas-del-este/4.webp",
+    ],
+    contactUrl: "https://www.google.com",
+  },
+
+  {
+    id: 6,
     title: "Terrazas del Chapelco",
     description: "Barrio abierto - Lotes disponibles",
     longDescription: `Terrazas del Chapelco es un proyecto de barrio abierto ubicado sobre la Ruta Nacional 40; el cual cuenta con lotes totalmente planos, excelentes vistas al cordón montañoso Chapelco
@@ -86,18 +120,18 @@ export const PROJECTS = [
     contactUrl: "https://www.google.com",
   },
   {
-    id: 6,
+    id: 7,
     title: "Rincón del Este",
     description: "Barrio abierto - Lotes disponibles",
     longDescription:
-      "Rincón del Este es un barrio abierto de alta gama ubicado en la mejor zona de Bariloche. Cuenta con lotes de 1000m2, seguridad 24hs, canchas de tenis, fútbol y club house.",
+      "Rincón del Este es un barrio abierto de alta gama ubicado en la mejor zona de Bariloche.",
     background: "rincon-del-este",
     type: "loteos",
     imageUrls: ["/images/projects/rincon-del-este/0.webp"],
     contactUrl: "https://www.google.com",
   },
   {
-    id: 7,
+    id: 8,
     title: "Pasaje del Este",
     description: "Barrio abierto - Sin lotes disponibles",
     longDescription:
@@ -108,7 +142,7 @@ export const PROJECTS = [
     contactUrl: "https://www.google.com",
   },
   {
-    id: 8,
+    id: 9,
     title: "Lomas del Cauquen",
     description: "Barrio abierto - Sin lotes disponibles",
     longDescription:
@@ -119,7 +153,7 @@ export const PROJECTS = [
     contactUrl: "https://www.google.com",
   },
   {
-    id: 9,
+    id: 10,
     title: "Las Pitras",
     description: "Barrio abierto - Lotes disponibles",
     longDescription:
@@ -130,7 +164,7 @@ export const PROJECTS = [
     contactUrl: "https://www.google.com",
   },
   {
-    id: 10,
+    id: 11,
     title: "Entre Cerros",
     description: "Barrio abierto - Sin lotes disponibles",
     longDescription:
@@ -141,7 +175,7 @@ export const PROJECTS = [
     contactUrl: "https://www.google.com",
   },
   {
-    id: 11,
+    id: 12,
     title: "Altos de Dina Huapi",
     description: "Barrio abierto - Sin lotes disponibles",
     longDescription:
@@ -152,7 +186,7 @@ export const PROJECTS = [
     contactUrl: "https://www.google.com",
   },
   {
-    id: 12,
+    id: 13,
     title: "Reina Mora",
     description: "Barrio abierto - Sin lotes disponibles",
     longDescription:
@@ -164,7 +198,7 @@ export const PROJECTS = [
   },
 
   {
-    id: 13,
+    id: 14,
     title: "San Martín Design",
     description: "Oficinas - No disponibles",
     longDescription:
@@ -175,7 +209,7 @@ export const PROJECTS = [
     contactUrl: "https://www.google.com",
   },
   {
-    id: 14,
+    id: 15,
     title: "Bariloche Center",
     description: "Locales y Oficinas - Disponibles",
     longDescription:
@@ -186,7 +220,7 @@ export const PROJECTS = [
     contactUrl: "https://www.google.com",
   },
   {
-    id: 15,
+    id: 16,
     title: "Paseo Catedral",
     description: "Locales y Oficinas - No disponibles",
     longDescription:
