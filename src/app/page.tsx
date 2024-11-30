@@ -237,7 +237,7 @@ export default function Home() {
             </Link>
           </div>
           <img
-            src="/images/bustillo-uno.webp"
+            src="/images/contact.webp"
             alt="Bustillo"
             className="flex w-auto md:h-[250px] lg:h-[300px] xl:h-[361px] object-cover"
           />
