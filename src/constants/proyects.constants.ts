@@ -4,16 +4,16 @@ export const PROJECTS = [
     title: "Gallardo Suites",
     description: "Unidades en pozo - Disponibles",
     longDescription:
-      "Gallardo Suites es un edificio de departamentos de alta gama ubicado en la mejor zona de Bariloche. Diseñado y desarrollado para uso residencial, profesional y turístico. Ubicado en el corazón de la ciudad de Bariloche.",
+      "Ubicado en el corazón de San Carlos de Bariloche, Gallardo Suites es un proyecto multifuncional diseñado para uso residencial, profesional y turístico. A solo unas cuadras del Centro Cívico y de los principales locales gastronómicos, ofrece una ubicación privilegiada. Ante la creciente demanda, Gallardo Suites dispone de unidades de uno y tres ambientes distribuidas en 4 pisos. Todas las unidades incluyen baulera, con cochera opcional. Además, ofrece unidades en pozo y financiación disponible, brindando una excelente oportunidad para quienes buscan invertir o vivir en una ubicación estratégica. *Imágenes ilustrativas.",
     background: "la-aguada",
     type: "departamentos",
     imageUrls: [
       "/images/projects/gallardo-suites/0.webp",
-      // "/images/projects/la-aguada/1.jpeg",
-      // "/images/projects/la-aguada/2.jpeg",
-      // "/images/projects/la-aguada/3.jpeg",
-      // "/images/projects/la-aguada/4.jpeg",
-      // "/images/projects/la-aguada/5.jpeg",
+      "/images/projects/gallardo-suites/1.webp",
+      "/images/projects/gallardo-suites/2.webp",
+      "/images/projects/gallardo-suites/3.webp",
+      "/images/projects/gallardo-suites/4.webp",
+      "/images/projects/gallardo-suites/5.webp",
     ],
     contactUrl: "https://www.google.com",
   },
@@ -22,7 +22,7 @@ export const PROJECTS = [
     title: "La Aguada",
     description: "Departamentos - Disponibles",
     longDescription:
-      "La Aguada es un complejo de departamentos de alta gama ubicado en la mejor zona de Bariloche.",
+      "La Aguada es un proyecto que se encuentra rodeado por una zona residencial consolidada, fruto del importante desarrollo urbano que la ciudad ha demostrado en los últimos años. Los departamentos se distribuyen en diferentes módulos y se implantan en el terreno priorizando las mejores orientaciones: Norte y Este. Esta distribución potencia los espacios verdes exteriores, característicos de los nuevos proyectos verde-urbano. El predio, cerrado en todo su perímetro, tiene un único acceso con un portón eléctrico y cuenta con cámaras de seguridad que pueden ser consultadas por los co-propietarios a a través de una aplicación desde su celular. La Aguada posee, asimismo, un salón de usos múltiples, que funciona también como quincho. Cuenta también con diferentes sectores exteriores donde, entre otros espacios, se ubica el sector de juegos para niños.",
     background: "la-aguada",
     type: "departamentos",
     imageUrls: [
@@ -43,9 +43,8 @@ export const PROJECTS = [
     id: 2,
     title: "Bustillo Uno",
     description: "Departamentos - Disponibles",
-    longDescription: `Ubicado en uno de los escenarios naturales más impactantes de nuestro país, Bustillo Uno es una evidencia de la capacidad de establecer un vínculo entre la arquitectura moderna
-    con la naturaleza y su topografía. A orillas del Lago Nahuel Huapi en San Carlos de Bariloche, y a solo unas cuadras del Centro Cívico, este proyecto de 21 departamentos de exquisito diseño, va
-    a permitirle disfrutar de su acceso a la costa e inigualables paisajes durante todo el año.`,
+    longDescription:
+      "A orillas del Lago Nahuel Huapi, en San Carlos de Bariloche y a solo unas cuadras del centro cívico, este exclusivo proyecto ofrece 21 departamentos de diseño exquisito que combinan confort y conexión con la naturaleza. Cada unidad cuenta con terraza y/o balcón y amplios ventanales, que llenan los espacios de luz natural y ventilación, creando una experiencia única. El edificio incluye una piscina climatizada con diseño in/out, ideal para disfrutar en cualquier estación del año, además de un gimnasio en el mismo nivel. También dispone de cocheras y bauleras opcionales para mayor comodidad. Un lugar inigualable para vivir y disfrutar de las imponentes vistas del lago.",
     background: "bustillo-uno",
     type: "departamentos",
     imageUrls: [
@@ -83,7 +82,7 @@ export const PROJECTS = [
     title: "Carantania",
     description: "Departamentos - No disponible",
     longDescription:
-      "Carantania es un edificio de departamentos de alta gama ubicado en la mejor zona de Bariloche. Cuenta con departamentos de 1, 2 y 3 dormitorios, cocheras, bauleras, SUM, piscina y gimnasio.",
+      "Respondiendo a la creciente demanda de unidades de estas características, Laura Fenoglio Emprendimientos aprovecha su reconocida trayectoria y experiencia en el rubro para ejecutar un proyecto innovador con detalles de vanguardia y un diseño destacado en todas sus áreas. Este edificio único cuenta con un ala completa de departamentos con vista al majestuoso lago Nahuel Huapi, desde uno de los puntos panorámicos más privilegiados de la zona. Su ubicación estratégica, al lado del Hotel Panamericano y frente al Casino, lo posiciona como una opción ideal para clientes ABC1. Las áreas comunes están diseñadas con materiales de alta calidad, manteniendo la estética y funcionalidad del edificio, mientras que cada piso ofrece un recibidor de aproximadamente 5 m² con mobiliario de diseño y un ascensor de primera marca.",
     background: "carantania",
     type: "departamentos",
     imageUrls: ["/images/projects/carantania/0.webp"],
@@ -101,7 +100,6 @@ export const PROJECTS = [
       "/images/projects/terrazas-del-este/1.webp",
       "/images/projects/terrazas-del-este/2.webp",
       "/images/projects/terrazas-del-este/3.webp",
-      "/images/projects/terrazas-del-este/4.webp",
     ],
     contactUrl: "https://www.google.com",
   },
@@ -130,7 +128,7 @@ export const PROJECTS = [
     title: "Rincón del Este",
     description: "Barrio abierto - Lotes disponibles",
     longDescription:
-      "Rincón del Este es un barrio abierto de alta gama ubicado en la mejor zona de Bariloche.",
+      "Viví la tranquilidad de un barrio abierto sin expensas, con todos los servicios esenciales: agua y luz. Ubicado a solo 7 minutos del centro de Bariloche, combina comodidad y cercanía con la naturaleza. Lotes disponibles desde 300 m², perfectos para construir el hogar que siempre soñaste o invertir en un lugar con proyección.",
     background: "rincon-del-este",
     type: "loteos",
     imageUrls: ["/images/projects/rincon-del-este/0.webp"],
@@ -141,7 +139,7 @@ export const PROJECTS = [
     title: "Pasaje del Este",
     description: "Barrio abierto - Sin lotes disponibles",
     longDescription:
-      "Pasaje del Este es un barrio abierto de alta gama ubicado en la mejor zona de Bariloche. Cuenta con lotes de 1000m2, seguridad 24hs, canchas de tenis, fútbol y club house.",
+      "Descubrí la tranquilidad de un barrio abierto diseñado para tu comodidad. Contamos con servicios de luz y agua, lotes de 300 m² ideales para tu proyecto, y un ingreso seguro a través de portón eléctrico. ¡El lugar perfecto para empezar a construir tus sueños!",
     background: "pasaje-del-este",
     type: "loteos",
     imageUrls: ["/images/projects/pasaje-del-este/0.webp"],
@@ -152,7 +150,7 @@ export const PROJECTS = [
     title: "Lomas del Cauquen",
     description: "Barrio abierto - Sin lotes disponibles",
     longDescription:
-      "Lomas del Cauquen es un barrio abierto de alta gama ubicado en la mejor zona de Bariloche. Cuenta con lotes de 1000m2, seguridad 24hs, canchas de tenis, fútbol y club house.",
+      "Lomas del Cauquén es un proyecto de barrio abierto que propone vivir rodeado de naturaleza a 8 minutos del centro de San Carlos de Bariloche. Podrá disfrutar de las majestuosas vistas de la Patagonia gracias al natural declive del terreno y a que todos sus servicios son subterráneos. Vistas panorámicas y plenas al Cerro Catedral, el Centro de Ski más grande de Sudamérica, Cerro Otto, Cerro Ventana y Lago Gutiérrez.",
     background: "lomas-del-cauquen",
     type: "loteos",
     imageUrls: ["/images/projects/lomas-del-cauquen/0.webp"],
@@ -163,7 +161,7 @@ export const PROJECTS = [
     title: "Las Pitras",
     description: "Barrio abierto - Lotes disponibles",
     longDescription:
-      "Las Pitras es un barrio abierto de alta gama ubicado en la mejor zona de Bariloche. Cuenta con lotes de 1000m2, seguridad 24hs, canchas de tenis, fútbol y club house.",
+      "Las Pitras es un lugar excepcional para invertir y disfrutar de la naturaleza que la Patagonia Argentina nos ofrece. Su maravilloso entorno le da a estos lotes un marco de belleza imponente. Rodeados de cerros y situados a pocos minutos de Lago Puelo, le otorgan al predio un espacio de privilegio.",
     background: "las-pitras",
     type: "loteos",
     imageUrls: ["/images/projects/las-pitras/0.webp"],
@@ -174,7 +172,7 @@ export const PROJECTS = [
     title: "Entre Cerros",
     description: "Barrio abierto - Sin lotes disponibles",
     longDescription:
-      "Entre Cerros es un barrio abierto de alta gama ubicado en la mejor zona de Bariloche. Cuenta con lotes de 1000m2, seguridad 24hs, canchas de tenis, fútbol y club house.",
+      "Entre Cerros es un proyecto de barrio abierto que propone vivir rodeado de naturaleza a 8 minutos del centro de San Carlos de Bariloche. Podrá disfrutar de las majestuosas vistas de la Patagonia gracias al natural declive del terreno y a que todos sus servicios son subterráneos. Vistas panorámicas y plenas al Cerro Catedral, el Centro de Ski más grande de Sudamérica, Cerro Otto, Cerro Ventana y Lago Gutiérrez.",
     background: "entre-cerros",
     type: "loteos",
     imageUrls: ["/images/projects/entre-cerros/0.webp"],
@@ -185,7 +183,7 @@ export const PROJECTS = [
     title: "Altos de Dina Huapi",
     description: "Barrio abierto - Sin lotes disponibles",
     longDescription:
-      "Altos de Dina Huapi es un barrio abierto de alta gama ubicado en la mejor zona de Bariloche. Cuenta con lotes de 1000m2, seguridad 24hs, canchas de tenis, fútbol y club house.",
+      "Altos de Dina Huapi es un loteo abierto residencial ubicado en la ciudad de Dina Huapi, en plena estepa patagónica. Este desarrollo urbano cuenta con 120 lotes destinados a viviendas para residencia permanente, ofreciendo un entorno tranquilo y conectado con la naturaleza.",
     background: "altos-de-dina",
     type: "loteos",
     imageUrls: ["/images/projects/altos-de-dina/0.webp"],
@@ -196,7 +194,7 @@ export const PROJECTS = [
     title: "Reina Mora",
     description: "Barrio abierto - Sin lotes disponibles",
     longDescription:
-      "Reina Mora es un barrio abierto de alta gama ubicado en la mejor zona de Bariloche. Cuenta con lotes de 1000m2, seguridad 24hs, canchas de tenis, fútbol y club house.",
+      "Reina Mora ofrece lotes estratégicamente ubicados para disfrutar de la luz del sol durante todo el día y contemplar los espléndidos atardeceres sobre el Cerro Catedral, con una postal diferente cada día del año. Cuenta con servicios de agua y gas, además de calles y avenidas que recorren el barrio de forma dinámica, creando vías claras y precisas para desplazarse. Este lugar privilegiado combina la cercanía del bosque y la ciudad, con un acceso ágil y directo que conecta en pocos minutos con la montaña, la ciudad, el aeropuerto, los lagos Gutiérrez y Nahuel Huapi, el Centro Catedral y Otto, así como las principales rutas hacia Neuquén, El Bolsón y Esquel. En una región en pleno desarrollo, Reina Mora se encuentra cerca de destacados emprendimientos como Arelauquen Golf & Country Club y Entre Cerros.",
     background: "reina-mora",
     type: "loteos",
     imageUrls: ["/images/projects/reina-mora/0.webp"],
@@ -208,7 +206,7 @@ export const PROJECTS = [
     title: "San Martín Design",
     description: "Oficinas - No disponibles",
     longDescription:
-      "San Martín Design es un edificio de oficinas de alta gama ubicado en la mejor zona de Bariloche. Cuenta con oficinas de 50m2, cocheras, bauleras, SUM, piscina y gimnasio.",
+      "San Martín Design es un edificio de gran envergadura con departamentos monoambientes y dos ambientes (1 dormitorio), locales comerciales y oficinas, distribuidos en 6 pisos. Las unidades cuentan con cocheras opcionales.",
     background: "san-martin-design",
     type: "oficinas",
     imageUrls: ["/images/projects/san-martin-design/0.webp"],

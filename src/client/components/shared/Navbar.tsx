@@ -44,12 +44,6 @@ export default function Navbar() {
               Nosotros
             </Link>
             <Link
-              href={"/#servicios"}
-              className="hover:text-[#8a2e67] hover:transition-colors duration-150"
-            >
-              Servicios
-            </Link>
-            <Link
               href={"/#proyectos"}
               className="hover:text-[#8a2e67] hover:transition-colors duration-150"
             >
@@ -83,13 +77,6 @@ export default function Navbar() {
           onClick={handleLinkClick}
         >
           Nosotros
-        </Link>
-        <Link
-          href={"#servicios"}
-          className="hover:text-[#8a2e67] hover:transition-colors duration-150"
-          onClick={handleLinkClick}
-        >
-          Servicios
         </Link>
         <Link
           href={"#proyectos"}
