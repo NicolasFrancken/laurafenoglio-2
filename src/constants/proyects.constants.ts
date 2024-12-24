@@ -131,7 +131,14 @@ export const PROJECTS = [
       "Viví la tranquilidad de un barrio abierto sin expensas, con todos los servicios esenciales: agua y luz. Ubicado a solo 7 minutos del centro de Bariloche, combina comodidad y cercanía con la naturaleza. Lotes disponibles desde 300 m², perfectos para construir el hogar que siempre soñaste o invertir en un lugar con proyección.",
     background: "rincon-del-este",
     type: "loteos",
-    imageUrls: ["/images/projects/rincon-del-este/0.webp"],
+    imageUrls: [
+      "/images/projects/rincon-del-este/0.webp",
+      "/images/projects/rincon-del-este/1.webp",
+      "/images/projects/rincon-del-este/2.webp",
+      "/images/projects/rincon-del-este/3.webp",
+      "/images/projects/rincon-del-este/4.webp",
+      "/images/projects/rincon-del-este/5.webp",
+    ],
     contactUrl: "https://www.google.com",
   },
   {
